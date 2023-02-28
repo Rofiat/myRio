@@ -14,7 +14,6 @@ const HomeContent = ({showModal, setModal}) => {
   return (
   <div className='font-[Outfit]'>
     {/* First Rectangle */}
-
     <div className='w-full bg-black py-20 px-4'>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <div className='flex flex-col justify-center font-[Outfit]'>

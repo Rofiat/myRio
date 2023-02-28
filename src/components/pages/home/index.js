@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import HomeHeader from '../home/header'
 import HomeContent from '../home/content'
-import HomeFooter from '../home/footer'
+
 
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
@@ -13,10 +13,6 @@ const Home = () => {
         <div className="">
           <HomeContent showModal={showModal} setModal={setShowModal} />
         </div>
-        <div>
-          <HomeFooter />
-        </div>
-        
     </div>
   )
 }
